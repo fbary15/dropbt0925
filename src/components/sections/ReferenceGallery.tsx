@@ -96,7 +96,7 @@ export function ReferenceGallery({ items, filters, labels }: GalleryProps) {
                   />
                 )}
                 <span className="relative">{f.label}</span>
-                <span className={cn("relative font-mono text-[0.68rem]", active ? "text-paper/60" : "text-ink-3")}>
+                <span className={cn("relative font-mono text-xs", active ? "text-paper/60" : "text-ink-3")}>
                   {counts[f.key] ?? 0}
                 </span>
               </button>
@@ -129,7 +129,7 @@ export function ReferenceGallery({ items, filters, labels }: GalleryProps) {
                 setDirection(0);
                 setOpenIndex(i);
               }}
-              className="group relative block w-full overflow-hidden rounded-2xl bg-paper-2 p-4 text-left transition-colors duration-500 hover:bg-paper-3 sm:p-6 lg:p-8"
+              className="group relative block w-full overflow-hidden rounded-2xl bg-paper-2 p-3 text-left transition-colors duration-500 hover:bg-paper-3 sm:p-6 lg:p-8"
               aria-label={`${labels.open}: ${item.client ?? item.categoryLabel}`}
             >
               <span className="flex justify-center">
@@ -142,7 +142,7 @@ export function ReferenceGallery({ items, filters, labels }: GalleryProps) {
                   style={{ maxWidth: Math.round(item.image.width * 1.35) }}
                 />
               </span>
-              <span className="mt-5 flex items-end justify-between gap-3">
+              <span className="mt-4 flex items-end justify-between gap-2 sm:mt-5 sm:gap-3">
                 <span className="min-w-0">
                   <span className="block truncate font-serif text-lg leading-tight">{item.client ?? item.categoryLabel}</span>
                   <span className="mt-0.5 block truncate text-xs text-ink-3">

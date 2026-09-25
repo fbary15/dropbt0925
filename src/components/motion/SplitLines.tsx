@@ -39,7 +39,7 @@ export function SplitLines({
       variants={{ hidden: {}, show: { transition: { staggerChildren: stagger, delayChildren: delay } } }}
     >
       {lines.map((line, i) => (
-        <span key={i} className="block overflow-hidden pb-[0.12em] -mb-[0.12em]">
+        <span key={i} className="-my-[0.14em] block overflow-hidden py-[0.14em]">
           <motion.span
             className={`block will-change-transform ${lineClassName ?? ""}`}
             variants={{

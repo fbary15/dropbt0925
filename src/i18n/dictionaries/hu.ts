@@ -201,6 +201,7 @@ const hu: Dictionary = {
     },
     stepLabel: "Lépés",
     hint: "Érintse meg vagy vigye fölé az egeret",
+    hintTouch: "Koppintson egy lépésre",
   },
 
   references: {
@@ -269,6 +270,7 @@ const hu: Dictionary = {
     kicker: "… a különböző tanulási típusok",
     mixed: "Vegyes típus",
     hint: "Vigye az egeret egy körre vagy kártyára",
+    hintTouch: "Koppintson egy körre vagy kártyára",
     items: [
       {
         key: "visual",

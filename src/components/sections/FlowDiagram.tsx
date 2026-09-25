@@ -197,7 +197,10 @@ export function FlowDiagram({ copy, compact = false }: { copy: FlowCopy; compact
 
       {!compact && (
         <>
-          <p className="eyebrow mt-6 text-center text-ink-3">{copy.hint}</p>
+          <p className="eyebrow mt-6 text-center text-ink-3">
+            <span className="pointer-coarse:hidden">{copy.hint}</span>
+            <span className="hidden pointer-coarse:inline">{copy.hintTouch}</span>
+          </p>
           <ol className="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {copy.steps.map((step, i) => {
               const Icon = ICONS[i];

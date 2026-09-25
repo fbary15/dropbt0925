@@ -29,7 +29,7 @@ export function ContactView({ locale, dict }: { locale: Locale; dict: Dictionary
             <p className="text-body mt-8 text-ink-2">{copy.forAny}</p>
             <a
               href="mailto:info@drop-bt.eu"
-              className="group mt-3 inline-flex items-start gap-3 font-serif text-[clamp(2.6rem,8.5vw,8.5rem)] leading-[0.95] tracking-tight transition-colors hover:text-wine"
+              className="group mt-3 inline-flex items-start gap-3 font-serif text-[clamp(2.1rem,7vw,7rem)] leading-[0.95] tracking-tight transition-colors hover:text-wine"
             >
               <span className="link-underline break-all pb-2">info@drop-bt.eu</span>
               <ArrowUpRight
@@ -91,7 +91,7 @@ export function ContactView({ locale, dict }: { locale: Locale; dict: Dictionary
                   <dt className="eyebrow pt-1 leading-relaxed text-ink-3">{label}</dt>
                   <dd className="text-[1.05rem]">
                     {value.includes("@") ? (
-                      <a href={`mailto:${value}`} className="link-underline">
+                      <a href={`mailto:${value}`} className="link-underline -my-2 inline-block py-2">
                         {value}
                       </a>
                     ) : (

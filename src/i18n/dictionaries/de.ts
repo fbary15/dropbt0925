@@ -208,6 +208,7 @@ const de: Dictionary = {
     },
     stepLabel: "Schritt",
     hint: "Schritt antippen oder darüberfahren",
+    hintTouch: "Tippen Sie auf einen Schritt",
   },
 
   references: {
@@ -276,6 +277,7 @@ const de: Dictionary = {
     kicker: "… die verschiedenen Lerntypen",
     mixed: "Kombinationen",
     hint: "Fahren Sie über einen Kreis oder eine Karte",
+    hintTouch: "Tippen Sie auf einen Kreis oder eine Karte",
     items: [
       {
         key: "visual",

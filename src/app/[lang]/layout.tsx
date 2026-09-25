@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Geist_Mono, Instrument_Serif, Inter_Tight } from "next/font/google";
+import { Geist_Mono, Inter_Tight, Newsreader } from "next/font/google";
 import { notFound } from "next/navigation";
 import { Footer } from "@/components/layout/Footer";
 import { Header, type HeaderSlots } from "@/components/layout/Header";
@@ -9,11 +9,12 @@ import { htmlLang, isLocale, locales, siteUrl } from "@/i18n/config";
 import { getDictionary } from "@/i18n";
 import "../globals.css";
 
-const serif = Instrument_Serif({
-  variable: "--font-instrument-serif",
+// Variable serif with an optical-size axis: refined hairlines at display sizes, sturdier at small sizes.
+const serif = Newsreader({
+  variable: "--font-display-serif",
   subsets: ["latin", "latin-ext"],
-  weight: "400",
   style: ["normal", "italic"],
+  axes: ["opsz"],
   display: "swap",
 });
 

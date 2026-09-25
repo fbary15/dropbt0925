@@ -39,8 +39,8 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
             >
               info@drop-bt.eu
             </a>
-            <p className="mt-6 text-paper/70">
-              <a href={`tel:${contact.phone.replace(/\s/g, "")}`} className="link-underline">
+            <p className="mt-4 text-paper/70">
+              <a href={`tel:${contact.phone.replace(/\s/g, "")}`} className="link-underline inline-block py-2">
                 {contact.phone}
               </a>
             </p>
@@ -48,11 +48,11 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
 
           {navGroups.map((group) => (
             <Reveal key={group.id} className={group.id === "design" ? "md:col-span-3" : "md:col-span-3 lg:col-span-2"} delay={0.08}>
-              <p className="eyebrow mb-5 text-paper/45">{nav.groups[group.id]}</p>
-              <ul className="space-y-2.5">
+              <p className="eyebrow mb-4 min-h-[2.5em] text-paper/45 md:min-h-0">{nav.groups[group.id]}</p>
+              <ul className="space-y-0.5">
                 {group.pages.map((key) => (
                   <li key={key}>
-                    <Link href={href(locale, key)} className="link-underline text-paper/80 hover:text-paper">
+                    <Link href={href(locale, key)} className="link-underline inline-block py-1.5 text-paper/80 hover:text-paper">
                       {nav.pages[key]}
                     </Link>
                   </li>
@@ -62,17 +62,17 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
           ))}
 
           <Reveal className="col-span-1 md:col-span-3 lg:col-span-2" delay={0.16}>
-            <p className="eyebrow mb-5 text-paper/45">{footer.companyNav}</p>
-            <ul className="space-y-2.5">
+            <p className="eyebrow mb-4 min-h-[2.5em] text-paper/45 md:min-h-0">{footer.companyNav}</p>
+            <ul className="space-y-0.5">
               {(["about", "contact"] as const).map((key) => (
                 <li key={key}>
-                  <Link href={href(locale, key)} className="link-underline text-paper/80 hover:text-paper">
+                  <Link href={href(locale, key)} className="link-underline inline-block py-1.5 text-paper/80 hover:text-paper">
                     {nav.pages[key]}
                   </Link>
                 </li>
               ))}
               <li>
-                <Link href={href(locale, "contact", "imprint")} className="link-underline text-paper/80 hover:text-paper">
+                <Link href={href(locale, "contact", "imprint")} className="link-underline inline-block py-1.5 text-paper/80 hover:text-paper">
                   {footer.imprint}
                 </Link>
               </li>

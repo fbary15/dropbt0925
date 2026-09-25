@@ -64,7 +64,7 @@ export function HomeView({ locale, dict }: { locale: Locale; dict: Dictionary })
         <Marquee duration={55}>
           {home.marquee.map((item) => (
             <span key={item} className="flex items-center">
-              <span className="px-6 font-serif text-[clamp(2.2rem,5vw,4.5rem)] italic leading-none tracking-tight lg:px-10">
+              <span className="px-6 font-serif text-[clamp(2rem,4.2vw,3.8rem)] italic leading-none tracking-tight lg:px-10">
                 {item}
               </span>
               <DropGlyph className="h-5 text-wine lg:h-7" />
@@ -120,7 +120,7 @@ export function HomeView({ locale, dict }: { locale: Locale; dict: Dictionary })
             {home.facts.map((fact, i) => (
               <div key={fact.label} className="bg-paper-2 px-4 py-12 first:pl-0 sm:px-6 lg:px-8 lg:py-20 [&:nth-child(3)]:max-lg:pl-0">
                 <Reveal delay={i * 0.08}>
-                  <p className="font-serif text-[clamp(3.25rem,7vw,7rem)] leading-none tracking-tight">
+                  <p className="font-serif text-[clamp(2.9rem,6vw,6rem)] leading-none tracking-tight">
                     <Counter value={fact.value} suffix={fact.suffix} year={fact.year} />
                   </p>
                   <p className="eyebrow mt-4 max-w-[16rem] leading-relaxed text-ink-3">{fact.label}</p>
@@ -198,8 +198,8 @@ export function HomeView({ locale, dict }: { locale: Locale; dict: Dictionary })
                   <span
                     className={
                       r === 0
-                        ? "whitespace-nowrap px-6 font-serif text-[clamp(2.6rem,6.5vw,6.5rem)] leading-[1.1] tracking-tight lg:px-10"
-                        : "whitespace-nowrap px-6 font-serif text-[clamp(2.6rem,6.5vw,6.5rem)] italic leading-[1.1] tracking-tight text-ink/35 lg:px-10"
+                        ? "whitespace-nowrap px-6 font-serif text-[clamp(2.3rem,5.4vw,5.5rem)] leading-[1.1] tracking-tight lg:px-10"
+                        : "whitespace-nowrap px-6 font-serif text-[clamp(2.3rem,5.4vw,5.5rem)] italic leading-[1.1] tracking-tight text-ink/35 lg:px-10"
                     }
                   >
                     {name}

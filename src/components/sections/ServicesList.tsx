@@ -49,7 +49,7 @@ export function ServicesList({ items }: { items: Service[] }) {
               />
               <span className="eyebrow relative text-ink-3">{String(i + 1).padStart(2, "0")}</span>
               <span className="relative">
-                <span className="block font-serif text-[clamp(1.9rem,4.2vw,4rem)] leading-[1] tracking-tight transition-all duration-700 ease-[var(--ease-expo)] group-hover:translate-x-3 group-hover:text-wine lg:group-hover:translate-x-6">
+                <span className="block font-serif text-[clamp(1.75rem,3.6vw,3.4rem)] leading-[1] tracking-tight transition-all duration-700 ease-[var(--ease-expo)] group-hover:translate-x-3 group-hover:text-wine lg:group-hover:translate-x-6">
                   {item.title}
                 </span>
                 <span className="mt-2 block text-sm text-ink-3 lg:hidden">{item.detail}</span>

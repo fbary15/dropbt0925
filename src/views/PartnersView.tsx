@@ -83,7 +83,7 @@ export function PartnersView({ locale, dict }: { locale: Locale; dict: Dictionar
               const { brand, detail } = splitName(name);
               return (
                 <div key={name} className="bg-paper-2">
-                  <RevealItem className="flex h-full min-h-48 flex-col justify-between p-6 lg:p-8">
+                  <RevealItem className="flex h-full flex-col justify-between gap-8 p-6 sm:min-h-48 lg:p-8">
                     <span className="eyebrow text-ink-3">{String(i + 1).padStart(2, "0")}</span>
                     <span>
                       <span className="block font-serif text-3xl leading-tight tracking-tight lg:text-4xl">{brand}</span>

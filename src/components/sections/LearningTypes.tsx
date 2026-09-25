@@ -97,7 +97,10 @@ export function LearningTypes({ copy }: { copy: Copy }) {
               );
             })}
           </div>
-          <p className="eyebrow mt-6 text-center text-ink-3">{copy.hint}</p>
+          <p className="eyebrow mt-6 text-center text-ink-3">
+            <span className="pointer-coarse:hidden">{copy.hint}</span>
+            <span className="hidden pointer-coarse:inline">{copy.hintTouch}</span>
+          </p>
         </div>
       </div>
 
@@ -113,6 +116,7 @@ export function LearningTypes({ copy }: { copy: Copy }) {
               transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1], delay: i * 0.06 }}
               onMouseEnter={() => setActive(item.key as Key)}
               onMouseLeave={() => setActive(null)}
+              onClick={() => setActive(item.key as Key)}
               className={cn(
                 "rounded-3xl border p-6 transition-all duration-500 lg:p-8",
                 on ? "border-wine bg-paper-2" : "border-ink/10",

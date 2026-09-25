@@ -201,6 +201,7 @@ const en = {
     },
     stepLabel: "Step",
     hint: "Hover or tap a step",
+    hintTouch: "Tap a step",
   },
 
   references: {
@@ -269,6 +270,7 @@ const en = {
     kicker: "… the different learning types",
     mixed: "Mixed learning style",
     hint: "Hover a circle or a card",
+    hintTouch: "Tap a circle or a card",
     items: [
       {
         key: "visual",

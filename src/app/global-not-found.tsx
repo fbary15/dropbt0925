@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { Instrument_Serif, Inter_Tight } from "next/font/google";
+import { Inter_Tight, Newsreader } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 
-const serif = Instrument_Serif({
-  variable: "--font-instrument-serif",
+const serif = Newsreader({
+  variable: "--font-display-serif",
   subsets: ["latin", "latin-ext"],
-  weight: "400",
   style: ["normal", "italic"],
+  axes: ["opsz"],
 });
 const sans = Inter_Tight({ variable: "--font-inter-tight", subsets: ["latin", "latin-ext"] });
 

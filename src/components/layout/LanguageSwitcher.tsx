@@ -29,7 +29,7 @@ export function LanguageSwitcher({ label, tone = "ink", className }: { label: st
               title={localeLabels[locale].long}
               onClick={() => remember(locale)}
               className={cn(
-                "relative px-1 py-1 transition-colors",
+                "relative inline-flex min-h-8 min-w-8 items-center justify-center px-1 transition-colors",
                 active
                   ? tone === "paper"
                     ? "text-paper"
@@ -41,7 +41,7 @@ export function LanguageSwitcher({ label, tone = "ink", className }: { label: st
             >
               {localeLabels[locale].short}
               {active && (
-                <span className={cn("absolute inset-x-1 -bottom-0.5 h-px", tone === "paper" ? "bg-paper" : "bg-wine")} />
+                <span className={cn("absolute inset-x-2 bottom-1 h-px", tone === "paper" ? "bg-paper" : "bg-wine")} />
               )}
             </Link>
           </span>

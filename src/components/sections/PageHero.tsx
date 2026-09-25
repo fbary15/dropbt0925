@@ -24,15 +24,15 @@ export function PageHero({ locale, pageKey, nav, label, title, intro, aside }: P
     <section className="container-x relative pt-36 pb-14 lg:pt-52 lg:pb-20">
       <Reveal y={16} className="flex items-center justify-between gap-6">
         <nav aria-label="Breadcrumb" className="eyebrow flex items-center gap-2 text-ink-3">
-          <Link href={href(locale, "home")} className="link-underline hover:text-ink">
+          <Link href={href(locale, "home")} className="link-underline -my-3 py-3 hover:text-ink">
             DROP
           </Link>
           <span aria-hidden>/</span>
           {label !== nav.pages[pageKey] && (
-            <>
+            <span className="hidden items-center gap-2 sm:flex">
               <span>{label}</span>
               <span aria-hidden>/</span>
-            </>
+            </span>
           )}
           <span className="text-ink" aria-current="page">
             {nav.pages[pageKey]}

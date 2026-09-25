@@ -359,8 +359,8 @@ export function Header({ locale, nav, phone, slots }: HeaderProps) {
 
               <div className="mt-auto flex flex-col gap-4 border-t border-paper/15 py-8 text-sm text-paper/70 sm:flex-row sm:items-center sm:justify-between">
                 <div className="flex flex-col gap-1">
-                  <a href="mailto:info@drop-bt.eu" className="text-paper">info@drop-bt.eu</a>
-                  <a href={`tel:${phone.replace(/\s/g, "")}`}>{phone}</a>
+                  <a href="mailto:info@drop-bt.eu" className="py-1.5 text-paper">info@drop-bt.eu</a>
+                  <a href={`tel:${phone.replace(/\s/g, "")}`} className="py-1.5">{phone}</a>
                 </div>
                 <LanguageSwitcher label={nav.language} tone="paper" />
               </div>

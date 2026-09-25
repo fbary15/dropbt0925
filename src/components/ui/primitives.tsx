@@ -55,7 +55,7 @@ export function Button({ href, children, variant = "solid", className, external,
 /** Text link with a sliding underline and arrow. */
 export function TextLink({ href, children, className }: { href: string; children: ReactNode; className?: string }) {
   return (
-    <Link href={href} className={cn("group inline-flex items-center gap-2 text-[0.95rem] font-medium", className)}>
+    <Link href={href} className={cn("group inline-flex items-center gap-2 py-2 text-[0.95rem] font-medium", className)}>
       <span className="link-underline pb-0.5">{children}</span>
       <ArrowRight aria-hidden className="h-4 w-4 transition-transform duration-500 group-hover:translate-x-1" />
     </Link>

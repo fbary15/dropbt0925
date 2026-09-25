@@ -20,7 +20,7 @@ export function LanguagesTrio({ common }: { common: Dictionary["common"] }) {
               </div>
               <p
                 lang={lang.code.toLowerCase()}
-                className="relative mt-16 font-serif text-[clamp(2.6rem,4.5vw,4.5rem)] leading-none tracking-tight transition-colors duration-500 group-hover:text-paper lg:mt-24"
+                className="relative mt-16 font-serif text-[clamp(2.4rem,3.9vw,3.9rem)] leading-none tracking-tight transition-colors duration-500 group-hover:text-paper lg:mt-24"
               >
                 {lang.native}
               </p>

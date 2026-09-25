@@ -26,7 +26,7 @@ export function AboutView({ locale, dict }: { locale: Locale; dict: Dictionary }
           <Reveal className="lg:col-span-4">
             <div className="rounded-[2rem] bg-wine p-8 text-paper lg:sticky lg:top-28 lg:p-10">
               <DropGlyph className="h-8 text-paper/80" />
-              <p className="mt-16 font-serif text-[clamp(4.5rem,8vw,8rem)] leading-none tracking-tight">
+              <p className="mt-16 font-serif text-[clamp(4rem,7vw,7rem)] leading-none tracking-tight">
                 <Counter value={1995} year />
               </p>
               <p className="eyebrow mt-4 text-paper/70">{dict.home.facts[0].label}</p>
@@ -49,7 +49,7 @@ export function AboutView({ locale, dict }: { locale: Locale; dict: Dictionary }
             {copy.valuesLabel}
           </p>
           <SplitLines
-            className="mt-10 font-serif text-[clamp(3rem,9vw,9.5rem)] leading-[0.95] tracking-tight"
+            className="mt-10 font-serif text-[clamp(2.6rem,7.6vw,8rem)] leading-[0.95] tracking-tight"
             stagger={0.07}
             lines={copy.values.map((value, i) => (
               <span key={value} className={i % 2 === 1 ? "italic text-wine-3" : undefined}>
@@ -78,7 +78,7 @@ export function AboutView({ locale, dict }: { locale: Locale; dict: Dictionary }
           <SectionLabel>{dict.common.anyQuestions}</SectionLabel>
           <Link
             href={href(locale, "contact")}
-            className="group mt-6 inline-flex items-center gap-4 font-serif text-[clamp(3rem,8vw,8rem)] leading-none tracking-tight transition-colors hover:text-wine"
+            className="group mt-6 inline-flex items-center gap-4 font-serif text-[clamp(2.6rem,6.8vw,6.8rem)] leading-none tracking-tight transition-colors hover:text-wine"
           >
             <span className="link-underline pb-2">{dict.common.clickHere}</span>
             <ArrowUpRight className="h-[0.55em] w-[0.55em] transition-transform duration-500 group-hover:rotate-45" strokeWidth={1} aria-hidden />

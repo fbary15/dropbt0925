@@ -13,7 +13,7 @@ const en = {
       flow: {
         title: "Project flow",
         description:
-          "From the first handshake through translation, page settings and graphic design to printing house and web — in combination or separately.",
+          "From the first handshake through translation, layout and graphic design to printing house and web — in combination or separately.",
       },
       references: {
         title: "References",
@@ -65,7 +65,7 @@ const en = {
       references: "Selected print & design work",
       partners: "Who we have worked with",
       teaching: "English & German, native teachers",
-      types: "Which learner are you?",
+      types: "What kind of learner are you?",
       contact: "Write or call us",
       about: "Since 1995",
     },
@@ -122,18 +122,18 @@ const en = {
       label: "What we do",
       lead: "The *service* and *quality* provided by highly skilled individuals in the entire process are definitely worth the money.",
       paragraphs: [
-        "More precisely, our work comprises graphic and product design, corporate and editorial design, print and pre-print processes, that is, content management, as well as copywriting; including CV texting, formatting and designing, formulation of required texts, as well as translations in connection with projects.",
+        "More precisely, our work comprises graphic and product design, corporate and editorial design, print and pre-print processes, that is, content management, as well as copywriting; including CV writing, formatting and designing, formulation of required texts, as well as translations in connection with projects.",
         "All these in 3 languages (German, English, Hungarian) and most importantly adapting to the specific cultural and geographic location. Therefore, we are able to use the most appropriate delivery of communication, be it visual and/or verbal, to the audience, no matter where they might be. We accomplish this thanks to our communication expertise and the use of sophisticated international and national market and industry research and analysis.",
       ],
     },
     services: {
       label: "Services",
-      title: "Everything in *one hand*",
+      title: "Everything under *one roof*",
       items: [
         { title: "Graphic & product design", detail: "Visualization of ideas", page: "references" },
         { title: "Corporate & editorial design", detail: "Identity, catalogues, publications", page: "references" },
-        { title: "Print & pre-print", detail: "From page settings to the printing house", page: "flow" },
-        { title: "Content management & copywriting", detail: "CV texting, formatting, formulation of texts", page: "flow" },
+        { title: "Print & pre-print", detail: "From layout to the printing house", page: "flow" },
+        { title: "Content management & copywriting", detail: "CV writing, formatting, formulation of texts", page: "flow" },
         { title: "Translation", detail: "English · German · Hungarian", page: "flow" },
         { title: "Language teaching & coaching", detail: "Native-speaking teachers", page: "teaching" },
       ],
@@ -147,7 +147,7 @@ const en = {
     process: {
       label: "Project flow",
       title: "From handshake to *print*",
-      text: "… and we do all of these steps in different combinations or separately as well (e.g. design and printing only, translation or page settings only, etc.).",
+      text: "… and we do all of these steps in different combinations or separately as well (e.g. design and printing only, translation or layout only, etc.).",
       cta: "Explore the project flow",
     },
     work: {
@@ -159,7 +159,7 @@ const en = {
     partners: {
       label: "Partners",
       title: "In good *company*",
-      text: "41 companies and 6 institutions — from international brands to the local library.",
+      text: "40 companies and 7 institutions — from international brands to the local library.",
       cta: "All partners",
     },
     learning: {
@@ -170,7 +170,7 @@ const en = {
         "Communication (level B2 and above)",
         "Preparation for language exams",
         "Presentations, business communication, job interviews",
-        "All from the basics for beginners",
+        "Beginners – starting from the basics",
       ],
       primary: "Language teaching",
       secondary: "Learning types",
@@ -188,11 +188,11 @@ const en = {
     label: "Communication & Design",
     title: "Project *flow*",
     intro: "… and we do all of these steps in different combinations or separately as well",
-    note: "(e.g. design and printing only, translation or page settings only, etc.)",
+    note: "(e.g. design and printing only, translation or layout only, etc.)",
     steps: [
-      { title: "Drop Bt. × Customer", items: ["Drop Bt.", "Customer"] },
+      { title: "DROP Bt. × Customer", items: ["DROP Bt.", "Customer"] },
       { title: "Translations", items: ["EN", "DE", "HU"] },
-      { title: "Page settings & graphic design", items: ["Page settings", "Graphic design"] },
+      { title: "Layout & graphic design", items: ["Layout", "Graphic design"] },
       { title: "Printing house & web", items: ["Printing house", "Web"] },
     ],
     loop: {
@@ -226,7 +226,7 @@ const en = {
   partners: {
     label: "Communication & Design",
     title: "*Partners*",
-    intro: "Companies and institutions we have worked with — many of them for decades.",
+    intro: "Companies and institutions we have worked with.",
     companies: "Companies",
     institutions: "Institutions",
   },
@@ -249,13 +249,13 @@ const en = {
         items: [
           "Communication (level B2 and above)",
           "Preparation for language exams",
-          "Training in presentations, business related communications, job interviews, etc.",
+          "Training in presentations, business-related communication, job interviews, etc.",
         ],
       },
       {
         title: "English and German",
         note: "For beginners",
-        items: ["All from the basics for beginners"],
+        items: ["Beginners – starting from the basics"],
       },
     ],
     imageAlt: "Chalkboard with the words English? Deutsch? Magyar?",
@@ -282,13 +282,13 @@ const en = {
         key: "auditory",
         short: "Auditory",
         name: "Auditory learners",
-        text: "Learn through listening. Ask questions. Discuss issues, talk through problems with others. Anything to be remembered is spoken out loudly or introduced via a small talk.",
+        text: "Learn through listening. Ask questions. Discuss issues, talk through problems with others. Anything to be remembered is said out loud or presented in a short talk.",
       },
       {
         key: "readwrite",
         short: "Read-and-write",
         name: "Read and write learners",
-        text: "Learn texts. Write down matters to clarify and define ideas and thoughts by which further developments occur. That is, important parts are re-defined.",
+        text: "Learn from texts. Write things down to clarify and organise their thoughts, rewriting and adding to their notes. Important points are rephrased.",
       },
       {
         key: "kinesthetic",
@@ -300,7 +300,7 @@ const en = {
         key: "mixed",
         short: "Mixed",
         name: "Mixed learners",
-        text: "A combination of the above; listening, visualizing, moving. Want to use most of the available time to learn. Therefore they do it even during any physical movement (walking, travelling, etc.), and for example, using sticky notes in the kitchen, or lecture materials via phone, and so on.",
+        text: "A combination of the above: listening, visualising, moving. They want to make the most of their time, so they learn on the move (walking, travelling, etc.), put sticky notes up in the kitchen or listen to lectures on their phone.",
       },
     ],
   },
@@ -309,7 +309,7 @@ const en = {
     label: "Contact",
     title: "Get in *touch*",
     connect: "Connect with us",
-    forAny: "For any question — e-mail us at",
+    forAny: "For any questions, e-mail us at",
     orCall: "Or call us",
     phone: "+49 162 463 1245",
     people: [
@@ -324,9 +324,9 @@ const en = {
         ["Name of the service provider", "DROP Kereskedelmi és Szolgáltató Betéti Társaság"],
         ["Registered seat", "H-2330 Dunaharaszti, Árpád utca 3."],
         ["E-mail address", "info@drop-bt.eu"],
-        ["Company register court", "Pest Megyei Bíróság Cégbírósága"],
+        ["Company register court", "Budapest Környéki Törvényszék Cégbírósága"],
         ["Company registration number", "13-06-021862"],
-        ["VAT ID", "24569545-2-13"],
+        ["Tax number", "24569545-2-13"],
         ["Web hosting provider", "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA"],
       ],
     },
@@ -335,17 +335,17 @@ const en = {
   about: {
     label: "About us",
     title: "About *us*",
-    lead: "Drop Bt. is a well-established firm that has been around since *1995*.",
+    lead: "DROP Bt. is a well-established firm that has been around since *1995*.",
     paragraphs: [
       "Our honest, professional, respectful, trustworthy and no-nonsense approach concerning all of our projects provides a harmonious and pleasant atmosphere when working with us. We apply high moral and ethical standards which permit us to deliver the required results on time and within the agreed cost-effective budget.",
-      "The company’s profile is a colourful one, starting from printing services and layout design, up to coaching, translating and teaching with a team consisting of more than 30 years of experience. We do not outsource projects or even parts of them. Each step is conducted and completed in-house. Having all phases in one hand is an advantage that certainly eliminates superfluous time-consuming stages during a project flow.",
+      "The company’s profile is a colourful one, starting from printing services and layout design, up to coaching, translating and teaching with a team with more than 30 years of experience. We do not outsource projects or even parts of them. Each step is conducted and completed in-house. Having all phases under one roof is an advantage that certainly eliminates superfluous time-consuming stages during a project flow.",
       "Why the combination of these profiles? Simply because our team has extensive experience in these fields. And, last but not least, we are a multi-lingual and therefore a multi-cultural undertaking.",
     ],
     valuesLabel: "Our approach",
     values: ["Honest", "Professional", "Respectful", "Trustworthy", "No-nonsense"],
     pillars: [
       { title: "In-house", text: "Each step is conducted and completed in-house." },
-      { title: "One hand", text: "All phases in one hand — no superfluous, time-consuming stages." },
+      { title: "One roof", text: "All phases under one roof — no superfluous, time-consuming stages." },
       { title: "Multi-cultural", text: "A multi-lingual and therefore a multi-cultural undertaking." },
     ],
   },
@@ -360,7 +360,7 @@ const en = {
     tagline: "Let’s create and do it! *Drop in!*",
     company: "DROP Kereskedelmi és Szolgáltató Bt.",
     address: "H-2330 Dunaharaszti, Árpád utca 3.",
-    reg: "Company reg. no. 13-06-021862 · VAT ID 24569545-2-13",
+    reg: "Company reg. no. 13-06-021862 · Tax no. 24569545-2-13",
     rights: "All rights reserved.",
     imprint: "Imprint",
     companyNav: "Company",

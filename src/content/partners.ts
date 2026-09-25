@@ -10,15 +10,14 @@ export const companies = [
   "Consensus",
   "Creditanstalt",
   "Daimler AG Deutschland",
-  "Dunaharaszti Városi Könyvtár",
-  "E-On Energie",
+  "E.ON Energie",
   "Erste Bank",
   "GBMT – Rechtsanwaltskanzlei",
   "GlaxoSmithKline",
   "Guinness",
   "HiPP – Babyspeisen",
-  "Hungaro Camion – Logistik",
-  "Inter Europa Bank",
+  "Hungarocamion – Logistik",
+  "Inter-Európa Bank",
   "Junkers",
   "L’Oréal Paris",
   "M+W Zander",
@@ -35,7 +34,7 @@ export const companies = [
   "Sto Építőanyag Kft.",
   "Vertical Flow Denmark",
   "Victus Hungária Kft.",
-  "Volan Tefu – Logistik",
+  "Volán Tefu – Logistik",
   "Volvo Cars Europe Trading Ltd.",
   "Volvo Trucks",
   "VW",
@@ -43,10 +42,11 @@ export const companies = [
 ];
 
 export const institutions = [
-  "MTV",
+  "Dunaharaszti Városi Könyvtár",
+  "MTV – Magyar Televízió",
   "Szilágyi Erzsébet Gimnázium",
   "Radnóti Miklós Színház",
-  "Red Nose Foundations",
+  "Piros Orr Bohócdoktorok Alapítvány",
   "USF – University of San Francisco",
   "VASANOC – National Olympic Committee of Vanuatu",
 ];
@@ -54,5 +54,5 @@ export const institutions = [
 /** Short brand names for the marquee on the home page. */
 export const partnerMarquee = [
   ["Audi", "Daimler", "Volvo Cars", "VW", "Erste Bank", "L’Oréal Paris", "GlaxoSmithKline", "Guinness", "HiPP", "Miele", "Bertelsmann"],
-  ["ABB", "E-On", "Junkers", "McCann-Erickson", "MAN", "Schiesser", "Sto", "Sopro", "Creditanstalt", "Westdeutsche Landesbank", "MTV"],
+  ["ABB", "E.ON", "Junkers", "McCann-Erickson", "MAN", "Schiesser", "Sto", "Sopro", "Creditanstalt", "Westdeutsche Landesbank", "MTV"],
 ];

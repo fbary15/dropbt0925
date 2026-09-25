@@ -144,13 +144,13 @@ export function ReferenceGallery({ items, filters, labels }: GalleryProps) {
               </span>
               <span className="mt-4 flex items-end justify-between gap-2 sm:mt-5 sm:gap-3">
                 <span className="min-w-0">
-                  <span className="block truncate font-serif text-lg leading-tight">{item.client ?? item.categoryLabel}</span>
-                  <span className="mt-0.5 block truncate text-xs text-ink-3">
+                  <span className="block font-serif text-base leading-tight break-words sm:text-lg">{item.client ?? item.categoryLabel}</span>
+                  <span className="mt-0.5 block text-xs leading-snug text-ink-3">
                     {item.client ? item.categoryLabel : ""}
                     {item.year ? `${item.client ? " · " : ""}${item.year}` : ""}
                   </span>
                 </span>
-                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-ink/15 transition-all duration-500 group-hover:rotate-90 group-hover:border-wine group-hover:bg-wine group-hover:text-paper">
+                <span className="hidden h-8 w-8 shrink-0 items-center justify-center rounded-full border border-ink/15 transition-all duration-500 group-hover:rotate-90 sm:flex group-hover:border-wine group-hover:bg-wine group-hover:text-paper">
                   <Plus className="h-4 w-4" aria-hidden />
                 </span>
               </span>

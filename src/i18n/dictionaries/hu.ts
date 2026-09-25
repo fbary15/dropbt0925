@@ -3,18 +3,18 @@ import type { Dictionary } from "./en";
 const hu: Dictionary = {
   meta: {
     siteName: "DROP Bt.",
-    defaultTitle: "DROP Bt. — Kommunikáció, Design & E-Learning",
+    defaultTitle: "DROP Bt. – Kommunikáció, Design & E-Learning",
     tagline: "Let’s create and do it! Drop in!",
     pages: {
       home: {
         title: "Kommunikáció és design 3 nyelven",
         description:
-          "Grafikai és webes tervezés, szövegírás, tördelés, fordítás, nyomdai előkészítés és nyomtatás — angolul, németül és magyarul. 1995 óta.",
+          "Grafikai és webes tervezés, szövegírás, tördelés, fordítás, nyomdai előkészítés és nyomtatás – angolul, németül és magyarul. 1995 óta.",
       },
       flow: {
         title: "Megrendelés folyamata",
         description:
-          "A kézfogástól a fordításon, tördelésen és designon át a nyomdáig és a webig — projektként vagy különböző kombinációkban.",
+          "A kézfogástól a fordításon, tördelésen és designon át a nyomdáig és a webig – projektként vagy különböző kombinációkban.",
       },
       references: {
         title: "Referenciák",
@@ -24,12 +24,12 @@ const hu: Dictionary = {
       partners: {
         title: "Partnerek",
         description:
-          "Cégek és intézmények, akikkel a DROP Bt. együtt dolgozott — többek között Audi, Daimler, Volvo, Erste Bank, L’Oréal Paris és GlaxoSmithKline.",
+          "Cégek és intézmények, amelyekkel a DROP Bt. együtt dolgozott – többek között az Audi, a Daimler, a Volvo, az Erste Bank, a L’Oréal Paris és a GlaxoSmithKline.",
       },
       teaching: {
         title: "Nyelvoktatás",
         description:
-          "Angol és német nyelv anyanyelvi tanárokkal — társalgás, nyelvvizsga-felkészítés, állásinterjú, önéletrajz és üzleti kommunikáció.",
+          "Angol és német nyelv anyanyelvi tanárokkal – társalgás, nyelvvizsga-felkészítés, állásinterjú, önéletrajz és üzleti kommunikáció.",
       },
       types: {
         title: "Tanulási típusok",
@@ -37,12 +37,12 @@ const hu: Dictionary = {
       },
       contact: {
         title: "Kapcsolat",
-        description: "Lépjen kapcsolatba a DROP Bt.-vel — írjon az info@drop-bt.eu címre vagy hívjon minket. Impresszum és cégadatok.",
+        description: "Lépjen kapcsolatba a DROP Bt.-vel – írjon az info@drop-bt.eu címre vagy hívjon minket. Impresszum és cégadatok.",
       },
       about: {
         title: "Rólunk",
         description:
-          "A DROP Bt. 1995 óta működik: fordítástól a késztermék leszállításáig minden munkafolyamat egy kézben, többnyelvű, multikulturális csapattal.",
+          "A DROP Bt. 1995 óta működik: a fordítástól a késztermék leszállításáig minden munkafolyamat egy kézben, többnyelvű, multikulturális csapattal.",
       },
     },
   },
@@ -99,7 +99,7 @@ const hu: Dictionary = {
 
   home: {
     hero: {
-      eyebrow: "Kommunikáció & Design — E-Learning",
+      eyebrow: "Kommunikáció & Design – E-Learning",
       title: ["Az ötlettől", "a *késztermékig*"],
       sub: "Grafikai tervezés, szövegírás, tördelés, fordítás és nyomdai kivitelezés – három nyelven, egy kézben.",
       primary: "Munkáink",
@@ -120,7 +120,7 @@ const hu: Dictionary = {
     ],
     intro: {
       label: "Mivel foglalkozunk",
-      lead: "Jól képzett és óriási szakmai tapasztalattal rendelkező csapatunk ötleteket hoz elképzelései megvalósításához, vizualizálja és késztermékké alakítja — természetesen *kiváló minőséggel*.",
+      lead: "Jól képzett és óriási szakmai tapasztalattal rendelkező csapatunk ötleteket hoz elképzelései megvalósításához, ezeket vizualizálja és késztermékké alakítja – természetesen *kiváló minőséggel*.",
       paragraphs: [
         "Pontosabban: munkánk magában foglalja projektek teljes körű kivitelezését a grafikai és webes megjelenés tervezésétől, szövegek (cég- és termékbemutatók, önéletrajzok stb.) megírásától, a tördelésétől, illetve a fordításától – azaz a tartalomkezeléstől – a nyomdai előkészítésen keresztül egészen a nyomtatásig.",
         "Mindezt az adott nyelvterület kultúrájának és sajátosságainak figyelembevételével, 3 nyelven (angol, német, magyar) végezzük. Különböző anyanyelvű munkatársaink szaktudása a garancia arra, hogy a legmegfelelőbb kommunikációs módot, legyen az akár vizuális és/vagy verbális, tudjuk alkalmazni, ezáltal igényes, nemzetközi piacok elvárásainak megfelelő színvonalú terméket biztosítsunk megrendelőink számára.",
@@ -140,9 +140,9 @@ const hu: Dictionary = {
     },
     facts: [
       { value: 1995, suffix: "", label: "Alapítás éve", year: true },
-      { value: 1987, suffix: "", label: "Óta a nyomdaiparban", year: true },
-      { value: 3, suffix: "", label: "Nyelv — angol, német, magyar", year: false },
-      { value: 100, suffix: "%", label: "Egy kézben — minden munkafázis", year: false },
+      { value: 1987, suffix: "", label: "Alapítóink kezdete a nyomdaiparban", year: true },
+      { value: 3, suffix: "", label: "Nyelv – angol, német, magyar", year: false },
+      { value: 100, suffix: "%", label: "Egy kézben – minden munkafázis", year: false },
     ],
     process: {
       label: "Megrendelés folyamata",
@@ -153,13 +153,13 @@ const hu: Dictionary = {
     work: {
       label: "Referenciák",
       title: "Válogatott *munkák*",
-      text: "Katalógusok, prospektusok, plakátok és naptárak — megtervezve, megírva, lefordítva és kinyomtatva.",
+      text: "Katalógusok, prospektusok, plakátok és naptárak – megtervezve, megírva, lefordítva és kinyomtatva.",
       cta: "Továbbiak",
     },
     partners: {
       label: "Partnerek",
       title: "Jó *társaságban*",
-      text: "41 cég és 6 intézmény — nemzetközi márkáktól a helyi könyvtárig.",
+      text: "40 cég és 7 intézmény – nemzetközi márkáktól a helyi könyvtárig.",
       cta: "Összes partner",
     },
     learning: {
@@ -190,31 +190,31 @@ const hu: Dictionary = {
     intro: "… ezeket a munkafolyamatokat vállaljuk projektként vagy különböző kombinációkban is",
     note: "(pl. design és nyomtatás, fordítás és tördelés stb.)",
     steps: [
-      { title: "Drop Bt. × Megrendelő", items: ["Drop Bt.", "Megrendelő"] },
+      { title: "DROP Bt. × Megrendelő", items: ["DROP Bt.", "Megrendelő"] },
       { title: "Fordítás", items: ["EN", "DE", "HU"] },
       { title: "Tördelés & design", items: ["Tördelés", "Design"] },
       { title: "Nyomda & web", items: ["Nyomda", "Web"] },
     ],
     loop: {
-      title: "Az egész projektre vonatkozóan",
+      title: "A teljes projekt során",
       items: ["Változtatások", "Új ötletek", "Korrektúra"],
     },
     stepLabel: "Lépés",
-    hint: "Érintse meg vagy vigye fölé az egeret",
+    hint: "Vigye az egeret egy lépésre",
     hintTouch: "Koppintson egy lépésre",
   },
 
   references: {
     label: "Kommunikáció & Design",
     title: "*Referenciák*",
-    intro: "Válogatás nyomdai és grafikai munkáinkból — katalógusok, prospektusok, plakátok, naptárak és még sok más.",
+    intro: "Válogatás nyomdai és grafikai munkáinkból – katalógusok, prospektusok, plakátok, naptárak és még sok más.",
     filters: {
       all: "Összes",
       catalogues: "Katalógusok",
       brochures: "Prospektusok & szórólapok",
       posters: "Plakátok & hirdetések",
       editorial: "Kiadványok & arculat",
-      calendars: "Naptárak & meghívók",
+      calendars: "Naptárak & kártyák",
     },
     open: "Megnézem",
     close: "Bezárás",
@@ -226,7 +226,7 @@ const hu: Dictionary = {
   partners: {
     label: "Kommunikáció & Design",
     title: "*Partnerek*",
-    intro: "Cégek és intézmények, akikkel együtt dolgoztunk — sokukkal évtizedek óta.",
+    intro: "Cégek és intézmények, amelyekkel együtt dolgoztunk.",
     companies: "Cégek",
     institutions: "Intézmények",
   },
@@ -237,7 +237,7 @@ const hu: Dictionary = {
     kicker: "… nyelvoktatás",
     paragraphs: [
       "A nyelvoktatásban – legyen az személyes vagy online óra – az egyik legnagyobb kihívás annak a módszernek a megtalálása, amivel a diákok a leghatékonyabban tudják elsajátítani a tananyagot.",
-      "Minden esetben figyelembe kell venni az adott személy tanulási stílusát, meghatározott céljait, valamint a személyiségét annak érdekében, hogy az új tanulnivalót megfelelő módon fel tudják dolgozni.",
+      "Minden esetben figyelembe kell venni az adott személy tanulási stílusát, meghatározott céljait, valamint a személyiségét annak érdekében, hogy az új tanulnivalót megfelelő módon fel tudja dolgozni.",
     ],
     highlight: "Az együttműködés tanár és diák között akkor lesz a leghatékonyabb, ha „*működik a kémia*”.",
     offerTitle: "Mit ajánlunk?",
@@ -266,7 +266,7 @@ const hu: Dictionary = {
   types: {
     label: "E-Learning",
     title: "Tanulási *típusok*",
-    question: "Te melyik típushoz *tartozol?*",
+    question: "Ön melyik típushoz *tartozik?*",
     kicker: "… a különböző tanulási típusok",
     mixed: "Vegyes típus",
     hint: "Vigye az egeret egy körre vagy kártyára",
@@ -282,7 +282,7 @@ const hu: Dictionary = {
         key: "auditory",
         short: "Auditív",
         name: "Auditív típus",
-        text: "Hallás után tanul. Kérdéseket tesz fel. Másokkal megvitatja a témákat; amelyeket meg kell jegyeznie, hangosan mondja, vagy kiselőadást tart róluk.",
+        text: "Hallás után tanul. Kérdéseket tesz fel. Másokkal megvitatja a témákat. Amit meg kell jegyeznie, azt hangosan kimondja, vagy kiselőadást tart róla.",
       },
       {
         key: "readwrite",
@@ -324,7 +324,7 @@ const hu: Dictionary = {
         ["Szolgáltató neve", "DROP Kereskedelmi és Szolgáltató Betéti Társaság"],
         ["Szolgáltató székhelye", "H-2330 Dunaharaszti, Árpád utca 3."],
         ["Elektronikus elérhetőség", "info@drop-bt.eu"],
-        ["Nyilvántartásba bejegyző bíróság", "Pest Megyei Bíróság Cégbírósága"],
+        ["Nyilvántartásba bejegyző bíróság", "Budapest Környéki Törvényszék Cégbírósága"],
         ["Cégjegyzékszám", "13-06-021862"],
         ["Adószám", "24569545-2-13"],
         ["Tárhelyszolgáltató", "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA"],
@@ -335,16 +335,16 @@ const hu: Dictionary = {
   about: {
     label: "Rólunk",
     title: "*Rólunk*",
-    lead: "A Drop Kereskedelmi és Szolgáltató Betéti Társaság *1995* óta folytatja tevékenységét.",
+    lead: "A DROP Kereskedelmi és Szolgáltató Betéti Társaság *1995* óta folytatja tevékenységét.",
     paragraphs: [
-      "Az alapító tagok 1987 óta foglalkoztak nyomdaiparral, így társaságunk egyik fő profilja mindig a nyomdaipari tevékenység volt. A megalakulás óta törekszünk arra, hogy szolgáltatásunkat egyre komplexebbé tegyük, megrendelőink minden igényét ki tudjuk elégíteni a tervezéstől a végtermékig. Társaságunk elsődleges célkitűzése, hogy kövessük a piaci trendeket, és partnereinknek megbízható, hosszú távú beszállítói hátteret biztosítsunk, mindezt költséghatékonyan és a lehető legmegbízhatóbb módon. Szolgáltatási körünk annyiban tér el a megszokottól, hogy a megbízásokat egészen a fordítástól a késztermék leszállításáig vállaljuk.",
+      "Az alapító tagok már 1987 óta foglalkoznak a nyomdaiparral, így társaságunk egyik fő profilja mindig a nyomdaipari tevékenység volt. A megalakulás óta törekszünk arra, hogy szolgáltatásunkat egyre komplexebbé tegyük, megrendelőink minden igényét ki tudjuk elégíteni a tervezéstől a végtermékig. Társaságunk elsődleges célkitűzése, hogy kövessük a piaci trendeket, és partnereinknek megbízható, hosszú távú beszállítói hátteret biztosítsunk, mindezt költséghatékonyan és a lehető legmegbízhatóbb módon. Szolgáltatási körünk annyiban tér el a megszokottól, hogy a megbízásokat egészen a fordítástól a késztermék leszállításáig vállaljuk.",
       "Ez számos előnnyel jár, de a legfontosabb, hogy az összes munkafolyamat „egy kézben” van, így a megbízók egy kapcsolattartóval tudják a teljes projektet – fordítás, design, tördelés, nyomtatás stb. – lebonyolítani, ami jelentős költség- és időmegtakarítással is jár. Természetesen a teljes körű kivitelezés mellett igény szerint egy-egy munkafázis elkészítését – fordítás és design, design/tördelés és nyomtatás stb. – külön-külön is vállaljuk.",
       "Profilunkat az évek során nyelvoktatással és coachinggal is színesítettük, mivel különböző anyanyelvű, multikulturális csapattagjaink sokéves tapasztalattal rendelkeznek ezeken a területeken is.",
     ],
-    valuesLabel: "Amiben hiszünk",
-    values: ["Megbízható", "Költséghatékony", "Hosszú távú", "Teljes körű", "Multikulturális"],
+    valuesLabel: "Értékeink",
+    values: ["Megbízhatóság", "Költséghatékonyság", "Hosszú távú partnerség", "Teljes körű kivitelezés", "Multikulturális csapat"],
     pillars: [
-      { title: "Egy kézben", text: "Egy kapcsolattartó a teljes projekthez — fordítás, design, tördelés, nyomtatás." },
+      { title: "Egy kézben", text: "Egy kapcsolattartó a teljes projekthez – fordítás, design, tördelés, nyomtatás." },
       { title: "A tervezéstől a végtermékig", text: "A fordítástól a késztermék leszállításáig vállaljuk a megbízásokat." },
       { title: "Multikulturális csapat", text: "Különböző anyanyelvű csapattagok, sokéves tapasztalattal." },
     ],

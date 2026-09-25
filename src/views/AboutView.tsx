@@ -64,7 +64,7 @@ export function AboutView({ locale, dict }: { locale: Locale; dict: Dictionary }
       <section className="container-x py-24 lg:py-36">
         <RevealGroup className="grid gap-4 md:grid-cols-3" stagger={0.1}>
           {copy.pillars.map((pillar, i) => (
-            <RevealItem key={pillar.title} className="flex min-h-72 flex-col justify-between rounded-[2rem] border border-ink/12 p-8 lg:p-10">
+            <RevealItem key={pillar.title} className="flex flex-col justify-between gap-10 rounded-[2rem] border border-ink/12 p-8 md:min-h-72 lg:p-10">
               <span className="eyebrow text-wine">{String(i + 1).padStart(2, "0")}</span>
               <span>
                 <span className="block font-serif text-[clamp(2rem,3vw,2.75rem)] leading-none tracking-tight">{pillar.title}</span>

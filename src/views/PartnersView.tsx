@@ -15,6 +15,15 @@ function groupByLetter(names: string[]) {
   return [...groups.entries()];
 }
 
+// The last card stretches to close the final row, so the grid never shows empty cells.
+const SM_SPAN: Record<number, string> = { 1: "", 2: "sm:col-span-2" };
+const LG_SPAN: Record<number, string> = { 1: "lg:col-span-1", 2: "lg:col-span-2", 3: "lg:col-span-3" };
+function lastCellSpan(count: number) {
+  const sm = count % 2 === 0 ? 1 : 2;
+  const lg = count % 3 === 0 ? 1 : 3 - (count % 3) + 1;
+  return `${SM_SPAN[sm]} ${LG_SPAN[lg]}`;
+}
+
 function splitName(name: string) {
   const [brand, ...rest] = name.split(" – ");
   return { brand, detail: rest.join(" – ") };
@@ -82,7 +91,7 @@ export function PartnersView({ locale, dict }: { locale: Locale; dict: Dictionar
             {institutions.map((name, i) => {
               const { brand, detail } = splitName(name);
               return (
-                <div key={name} className="bg-paper-2">
+                <div key={name} className={i === institutions.length - 1 ? `bg-paper-2 ${lastCellSpan(institutions.length)}` : "bg-paper-2"}>
                   <RevealItem className="flex h-full flex-col justify-between gap-8 p-6 sm:min-h-48 lg:p-8">
                     <span className="eyebrow text-ink-3">{String(i + 1).padStart(2, "0")}</span>
                     <span>

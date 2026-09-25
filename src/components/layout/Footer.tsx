@@ -26,7 +26,7 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
         <p className="eyebrow mb-8 text-paper/50">{nav.cta}</p>
         <SplitLines
           as="p"
-          className="text-mega max-w-[14ch]"
+          className="text-mega"
           lines={[`${first}!`, rich(second ?? "")]}
         />
 

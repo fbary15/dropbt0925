@@ -43,8 +43,9 @@ export function SplitLines({
           <motion.span
             className={`block will-change-transform ${lineClassName ?? ""}`}
             variants={{
-              hidden: { y: "110%", rotate: 2 },
-              show: { y: "0%", rotate: 0, transition: { duration: 1.2, ease: [0.16, 1, 0.3, 1] } },
+              // A full `transform` string (not x/y shorthands) lets the browser run this on the GPU.
+              hidden: { transform: "translateY(110%) rotate(2deg)" },
+              show: { transform: "translateY(0%) rotate(0deg)", transition: { duration: 1.2, ease: [0.16, 1, 0.3, 1] } },
             }}
           >
             {line}

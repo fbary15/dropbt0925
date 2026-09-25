@@ -29,8 +29,8 @@ export function HomeHero({ hero, scrollLabel, workHref, contactHref }: HomeHeroP
   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-18%"]);
 
   const fade = (delay: number) => ({
-    initial: { opacity: 0, y: 24 },
-    animate: ready ? { opacity: 1, y: 0 } : undefined,
+    initial: { opacity: 0, transform: "translateY(24px)" },
+    animate: ready ? { opacity: 1, transform: "translateY(0px)" } : undefined,
     transition: { duration: 1.1, ease: EASE, delay },
   });
 
@@ -40,8 +40,8 @@ export function HomeHero({ hero, scrollLabel, workHref, contactHref }: HomeHeroP
         {rich(line)}
         <motion.span
           className="inline-block text-wine"
-          initial={{ y: "-2.2em", opacity: 0 }}
-          animate={ready ? { y: 0, opacity: 1 } : undefined}
+          initial={{ transform: "translateY(-2.2em)", opacity: 0 }}
+          animate={ready ? { transform: "translateY(0em)", opacity: 1 } : undefined}
           transition={{ type: "spring", stiffness: 260, damping: 14, delay: 1.05 }}
         >
           <DropGlyph className="ml-[0.08em] h-[0.3em] align-baseline" />
@@ -97,8 +97,8 @@ export function HomeHero({ hero, scrollLabel, workHref, contactHref }: HomeHeroP
           </motion.div>
 
           <motion.div
-            initial={{ scale: 0, rotate: -90 }}
-            animate={ready ? { scale: 1, rotate: 0 } : undefined}
+            initial={{ transform: "scale(0) rotate(-90deg)" }}
+            animate={ready ? { transform: "scale(1) rotate(0deg)" } : undefined}
             transition={{ duration: 1.2, ease: EASE, delay: 1.1 }}
             className="absolute -left-4 -top-8 sm:-left-10 lg:-left-12 xl:-left-16"
           >

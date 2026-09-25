@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DROP Bt. — website
 
-## Getting Started
+Relaunch of [drop-bt.eu](https://drop-bt.eu) in Next.js 16 (App Router, Turbopack), Tailwind CSS 4, Motion and Lenis.
+Three languages with localized URLs: English (`/en`), German (`/de`) and Hungarian (`/hu`).
 
-First, run the development server:
+## Development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev      # http://localhost:3000
+npm run build    # production build (all 24 pages are statically generated)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Where things live
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| What | Where |
+| --- | --- |
+| All copy (EN / DE / HU) | `src/i18n/dictionaries/{en,de,hu}.ts` — `*word*` renders as the wine italic accent |
+| Page slugs per language, nav order | `src/i18n/config.ts` |
+| Reference gallery (images, client, category) | `src/content/references.ts` + `src/assets/ref/` |
+| Partner lists | `src/content/partners.ts` |
+| Page layouts | `src/views/*View.tsx` |
+| Reusable sections (hero, flow diagram, gallery, …) | `src/components/sections/` |
+| Colours, type scale, utilities | `src/app/globals.css` |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `/` redirects to the visitor's language (saved choice → `Accept-Language` → English), see `src/proxy.ts`.
+- Old WordPress URLs (e.g. `/about_us/`, `/de/was_wir_tun/`) are permanently redirected in `next.config.ts`.
+- `sitemap.xml`, `robots.txt`, hreflang alternates and per-language Open Graph images are generated automatically.
+- Set `NEXT_PUBLIC_SITE_URL` if the site is served from a domain other than `https://drop-bt.eu`.
